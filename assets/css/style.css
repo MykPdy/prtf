@@ -6,7 +6,7 @@
    */
 
   /* gradient */
-  --WebKit-tap-highlightcolor : transparent 
+  --WebKit-tap-highlightcolor : transparent ();
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -93,7 +93,7 @@
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
-
+  
 }
 
 

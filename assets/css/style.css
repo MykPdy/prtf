@@ -6,28 +6,28 @@
    */
 
   /* gradient */
-  --WebKit-tap-highlightcolor : transparent ();
-
+  --WebKit-tap-highlightcolor : transparent();
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
     hsl(240, 1%, 25%) 3%, 
-    hsl(0, 0%, 19%) 97%
+    hsl(0, 0%, 19%) 97%,
+    var(--WebKit-tap-highlightcolor)
   );
   --bg-gradient-jet: linear-gradient(
     to bottom right, 
     hsla(240, 1%, 18%, 0.251) 0%, 
     hsla(240, 2%, 11%, 0) 100%
-  ), hsl(240, 2%, 13%);
+  ),var(--WebKit-tap-highlightcolor), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
     hsl(3, 96%, 51%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
+    hsla(36, 100%, 69%, 0) 50%,var(--WebKit-tap-highlightcolor)
   );
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
     hsla(45, 100%, 71%, 0.251) 0%, 
     hsla(35, 100%, 68%, 0) 59.86%
-  ), hsl(240, 2%, 13%);
+  ), hsl(240, 2%, 13%),var(--WebKit-tap-highlightcolor);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
     hsl(0, 0%, 25%) 0%, 

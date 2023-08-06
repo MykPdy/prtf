@@ -35,8 +35,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(199, 88%, 45%), /*Changes here*/
+    hsl(191, 65%, 37%) /*Changes here*/
   );
 
   /* solid */
@@ -48,8 +48,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(199, 88%, 45%);/*Changes here*/
+  --vegas-gold: hsl(199, 88%, 45%);/*Changes here*/
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -152,7 +152,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--eerie-black-2),var(--WebKit-tap-highlightcolor);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -259,7 +259,7 @@ article.active {
 
 .content-card {
   position: relative;
-  background: rgb(31, 31, 115);
+  background:  hsla(240, 1%, 17%, 0.75);
   padding: 15px;
   padding-top: 45px;
   border-radius: 14px;
@@ -272,7 +272,7 @@ article.active {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background:  hsla(240, 1%, 17%, 0.75),var(--WebKit-tap-highlightcolor);
   border-radius: inherit;
   z-index: -1;
 }

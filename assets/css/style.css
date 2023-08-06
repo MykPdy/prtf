@@ -6,6 +6,7 @@
    */
 
   /* gradient */
+  --WebKit-tap-highlightcolor : transparent 
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
